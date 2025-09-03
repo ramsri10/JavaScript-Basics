@@ -1,3 +1,5 @@
+//primitive Data Types
+
 let city = "salem"
 
 console.log(`I live in   ${city} city`)

@@ -1,3 +1,4 @@
+//conditional Statements
 function launchBrowser(browserName) {
     if (browserName === "chrome") {//strict equality
         console.log("Launch the Chrome Browser");

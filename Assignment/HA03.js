@@ -1,3 +1,4 @@
+//Grade Calculation
 function studentScore(marks) {
     let grade;
 
@@ -17,6 +18,7 @@ function studentScore(marks) {
             break;
         case (marks >= 50 && marks <= 70):
             grade = 'D'
+            console.log("D grade");
 
             break;
 
@@ -26,15 +28,18 @@ function studentScore(marks) {
             break;
 
         default:
-            grade ='Invalid Score'
+            grade = 'Invalid Score'
             break;
     }
     return grade
+    console.log(grade);
+    
 }
 
-let studentMark= 72
+let studentMark = 72
 
-studentScore(95)
-console.log(studentScore(95));
-console.log("Score:"+studentMark +"->Grade:"+studentScore(studentMark));
+studentScore()
+//console.log(studentScore(75));
+//console.log("Score:"+studentMark +"->Grade:"+studentScore(studentMark));
 
+studentScore(75)
