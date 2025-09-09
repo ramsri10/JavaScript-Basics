@@ -1,7 +1,7 @@
 import test, { chromium } from "@playwright/test"
 
 
-test('Login Page', async({page})=>{
+test('Login Page', async({page})=>{//page fixture 
 
     // const browser = await chromium.launch({ headless: false, channel: 'chrome' })
     // const context = await browser.newContext()
